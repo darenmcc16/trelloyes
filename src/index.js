@@ -1,10 +1,11 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import './index.css';
-import STORE from './STORE';
 import App from './App';
+import STORE from './STORE';
+import ReactDOM from 'react-dom';
+
 
 ReactDOM.render(
-  <App store={STORE} />,
+  <App store = {STORE} />,
   document.getElementById('root'),
-);
+)
